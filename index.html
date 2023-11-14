@@ -14,6 +14,8 @@
     />
     <meta name="author" content="Muhammad Rizqi Maulana" />
 
+    <link rel="favicon" href="./public/img/warna.png" />
+
     <!-- my css -->
     <link rel="stylesheet" href="public/css/style.css" />
 
@@ -65,8 +67,12 @@
             <!-- <svg class="h-10" alt="logo" viewBox="0 0 100 100">
                         <path d="M100 34.2c-.4-2.6-3.3-4-5.3-5.3-3.6-2.4-7.1-4.7-10.7-7.1-8.5-5.7-17.1-11.4-25.6-17.1-2-1.3-4-2.7-6-4-1.4-1-3.3-1-4.8 0-5.7 3.8-11.5 7.7-17.2 11.5L5.2 29C3 30.4.1 31.8 0 34.8c-.1 3.3 0 6.7 0 10v16c0 2.9-.6 6.3 2.1 8.1 6.4 4.4 12.9 8.6 19.4 12.9 8 5.3 16 10.7 24 16 2.2 1.5 4.4 3.1 7.1 1.3 2.3-1.5 4.5-3 6.8-4.5 8.9-5.9 17.8-11.9 26.7-17.8l9.9-6.6c.6-.4 1.3-.8 1.9-1.3 1.4-1 2-2.4 2-4.1V37.3c.1-1.1.2-2.1.1-3.1 0-.1 0 .2 0 0zM54.3 12.3L88 34.8 73 44.9 54.3 32.4V12.3zm-8.6 0v20L27.1 44.8 12 34.8l33.7-22.5zM8.6 42.8L19.3 50 8.6 57.2V42.8zm37.1 44.9L12 65.2l15-10.1 18.6 12.5v20.1zM50 60.2L34.8 50 50 39.8 65.2 50 50 60.2zm4.3 27.5v-20l18.6-12.5 15 10.1-33.6 22.4zm37.1-30.5L80.7 50l10.8-7.2-.1 14.4z"></path>
                     </svg> -->
-            <p>WARNA PRINT</p>
             <!-- <i class="fa-brands group-hover:text-slate-400 fa-instagram text-4xl text-slate-300"></i> -->
+            <img
+              class="w-1/2 md:w-1/5 xl:1/6 max-h-[50px]"
+              src="./public/img/warna.png"
+              alt=""
+            />
           </a>
 
           <a href="https://wa.link/ax8dpq"
@@ -619,7 +625,7 @@
     <!-- location -->
     <section>
       <div
-        class="container xl:w-full w-full mx-auto h-[100vh] px-6 xl:px-32 md:h-[83vh] xl:h-[100vh] bg-[#f2f2f2]"
+        class="container xl:w-full w-full mx-auto min-h-fit px-6 xl:px-32 md:h-[83vh] xl:h-[100vh] bg-[#f2f2f2]"
       >
         <h1
           class="text-center text-3xl md:text-4xl font-merry py-10 xl:py-0 xl:pt-16 font-bold text-slate-700"
@@ -627,19 +633,14 @@
           LOKASI
         </h1>
 
-        <div
-          class="xl:flex xl:gap-16 xl:mt-20 xl:items-center xl:justify-center"
-        >
-          <div class="w-full" data-aos="fade-right" data-aos-duration="500">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.06563350851!2d111.99545590000001!3d-7.8675725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78574ff9e94493%3A0x2697ca6810fbdc1b!2sSofyan!5e0!3m2!1sid!2sid!4v1659838107754!5m2!1sid!2sid"
-              class="h-[50vh] rounded-lg xl:h-[50vh] w-full md:w-[90%] xl:w-[100%] mx-auto"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+        <div class="flex xl:gap-16 xl:mt-20 items-center justify-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.06563350851!2d111.99545590000001!3d-7.8675725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78574ff9e94493%3A0x2697ca6810fbdc1b!2sSofyan!5e0!3m2!1sid!2sid!4v1659838107754!5m2!1sid!2sid"
+            class="map rounded-lg xl:h-[50vh] w-full md:w-[90%] xl:w-[100%]"
+            allowfullscreen="yes"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
 
           <!-- <div
             class="text py-10 md:px-[80px] xl:w-1/2"
@@ -668,7 +669,7 @@
     <section>
       <div class="w-full py-5 md:h-[60vh] xl:h-[70vh] bg-[#F7FAFC]">
         <h1 class="text-center font-bold font-merry text-3xl py-10">
-          OUR SERVICE
+          LAYANAN KAMI
         </h1>
 
         <!-- tampilan mobile -->
@@ -679,7 +680,8 @@
             <div
               class="relative w-[60%] md:w-[40%] xl:w-[20%] my-20 xl:my-0 md:my-12 bg-[#254866] hover:bg-[#004581] rounded-md mx-auto xl:mx-0 h-[20vh] md:h-[20vh] xl:h-[30vh] group transition duration-500"
               data-aos="fade-right"
-              data-aos-duration="500"
+              data-aos-duration="1000"
+              data-aos-delay="500"
             >
               <img
                 src="public/img/printing.png"
@@ -689,7 +691,7 @@
               <h1
                 class="text-white text-2xl font-bold font-merry tracking-wider absolute bottom-10 left-1/2 -translate-x-1/2"
               >
-                PRINTING
+                CONTOH PERCETAKAN
               </h1>
             </div>
 
@@ -705,8 +707,9 @@
           <a href="galerycons.html">
             <div
               class="relative w-[60%] md:w-[40%] xl:w-[20%] my-32 xl:my-0 bg-[#254866] hover:bg-[#004581] rounded-md mx-auto xl:mx-0 h-[20vh] md:h-[20vh] xl:h-[30vh] group transition duration-500"
-              data-aos="fade-up"
-              data-aos-duration="500"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="500"
             >
               <img
                 src="public/img/konstruksi.png"
@@ -716,7 +719,7 @@
               <h1
                 class="text-white text-xl font-bold font-merry tracking-wider absolute bottom-10 left-1/2 -translate-x-1/2"
               >
-                CONSTRUCTION
+                CONTOH KONSTRUKSI
               </h1>
             </div>
             <!-- <div class="flex items-center justify-center gap-5 group -translate-y-28 mt-2">
@@ -731,21 +734,21 @@
           <a href="galeryplafon.html">
             <div
               class="relative w-[60%] md:w-[40%] xl:w-[20%] my-32 xl:my-0 bg-[#254866] hover:bg-[#004581] rounded-md mx-auto xl:mx-0 h-[20vh] md:h-[20vh] xl:h-[30vh] group transition duration-500"
-              data-aos="fade-up"
-              data-aos-duration="500"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="500"
             >
               <img
-                src="public/img/konstruksi.png"
+                src="public/icons/roof.png"
                 class="absolute left-1/2 -translate-x-1/2 top-0 -translate-y-20 w-[80%] md:w-[80%] group-hover:scale-110 transition duration-1000 group-hover:-translate-y-24"
                 alt=""
               />
               <h1
                 class="text-white text-xl font-bold font-merry tracking-wider absolute bottom-10 left-1/2 -translate-x-1/2"
               >
-                PLAFON
+                CONTOH PLAFON
               </h1>
             </div>
-            <h1>test</h1>
             <!-- <div class="flex items-center justify-center gap-5 group -translate-y-28 mt-2">
                           <a href="galeryprinting.html"
                             class="py-3 px-4 rounded-md font-semibold bg-[#254866] text-white group-hover:bg-[#F4EC97] group-hover:text-black transition duration-300">Construction
@@ -823,9 +826,9 @@
     <!-- service detail -->
 
     <!-- printing section -->
-    <section>
+    <!-- <section>
       <div
-        class="min-h-screen relative flex gap-4 overflow-x-hidden bg-[#f2f2f2]"
+      class="min-h-screen relative flex gap-4 overflow-x-hidden bg-[#f2f2f2]"
       >
         <div
           class="absolute left-0 top-[5%] h-2/5 md:h-1/2 w-3/5 md:top-[10.5%] lg:w-1/4 lg:h-4/5 bg-[#254866] rounded-r-3xl"
@@ -870,10 +873,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- construction section -->
-    <section>
+    <!-- <section>
       <div
         class="min-h-screen relative flex gap-4 gap-y-6 overflow-x-hidden bg-[#f2f2f2]"
       >
@@ -918,7 +921,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- gallery  -->
     <!-- <section>
@@ -1027,16 +1030,20 @@
       <div class="w-full flex flex-col pt-10 py-8 justify-between bg-[#254866]">
         <div class="flex flex-col mx-12 lg:flex-row justify-evenly pb-4">
           <div class="mt-4 mb-5">
-            <p class="text-white text-2xl font-merry">Logo</p>
+            <img
+              class="w-1/2 md:w-1/5 xl:1/6 max-h-[50px] md:max-h-[1000px]"
+              src="./public/img/warna.png"
+              alt=""
+            />
           </div>
 
           <div class="flex flex-col mt-4 mb-5">
             <p class="text-white font-bold font-merry">Jam Kerja</p>
             <p class="text-white font-merry mt-4 mb-2">
-              Weekdays: <span class="text-gray-800">08:00 - 23:00</span>
+              Weekdays: <span class="">08:00 - 23:00</span>
             </p>
             <p class="text-white font-merry">
-              Weekends: <span class="text-gray-800">09:00 - 12:00</span>
+              Weekends: <span class="">09:00 - 12:00</span>
             </p>
           </div>
 
